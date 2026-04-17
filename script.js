@@ -58,33 +58,25 @@ function downloadPDF(){
 
     let doc = new jsPDF();
 
-
-    let pageHeight = doc.internal.pageSize.height;
-
     let margin = 10;
+    let pageWidth = doc.internal.pageSize.getWidth() - margin * 2;
+    let pageHeight = doc.internal.pageSize.getHeight();
+    let lineHeight = 7;
 
-    let y = margin;
+    let lines = doc.splitTextToSize(policy, pageWidth);
 
+    let linesPerPage = Math.floor((pageHeight - margin * 2) / lineHeight);
 
-    let lines = doc.splitTextToSize(policy, 180);
+    for(let i = 0; i < lines.length; i += linesPerPage){
 
+        let pageLines = lines.slice(i, i + linesPerPage);
 
-    lines.forEach(line => {
-
-        if (y > pageHeight - margin) {
-
+        if(i > 0){
             doc.addPage();
-
-            y = margin;
-
         }
 
-        doc.text(line, margin, y);
-
-        y += 7;
-
-    });
-
+        doc.text(pageLines, margin, margin);
+    }
 
     doc.save("Drone_Policy.pdf");
 
