@@ -10,7 +10,7 @@ fetch("template.txt")
 });
 
 
-/* Load colleges list */
+/* Load colleges */
 
 fetch("colleges.json")
 .then(response => response.json())
@@ -34,7 +34,7 @@ fetch("colleges.json")
 });
 
 
-/* Generate PDF */
+/* Generate formatted PDF */
 
 function downloadPDF(){
 
@@ -58,25 +58,74 @@ function downloadPDF(){
 
     let doc = new jsPDF();
 
-    let margin = 10;
-    let pageWidth = doc.internal.pageSize.getWidth() - margin * 2;
+
+    /* Page settings */
+
+    let margin = 20;
+    let pageWidth = doc.internal.pageSize.getWidth();
     let pageHeight = doc.internal.pageSize.getHeight();
-    let lineHeight = 7;
+    let usableWidth = pageWidth - margin * 2;
 
-    let lines = doc.splitTextToSize(policy, pageWidth);
+    let y = margin;
 
-    let linesPerPage = Math.floor((pageHeight - margin * 2) / lineHeight);
 
-    for(let i = 0; i < lines.length; i += linesPerPage){
+    /* ---------- TITLE ---------- */
 
-        let pageLines = lines.slice(i, i + linesPerPage);
+    doc.setFont("Times","Bold");
+    doc.setFontSize(16);
 
-        if(i > 0){
+    doc.text("UNMANNED AERIAL VEHICLES (UAV) POLICY", pageWidth/2, y, {align:"center"});
+
+    y += 10;
+
+
+    doc.setFontSize(13);
+    doc.setFont("Times","Normal");
+
+    doc.text(college.name, pageWidth/2, y, {align:"center"});
+
+    y += 15;
+
+
+    /* ---------- POLICY BODY ---------- */
+
+    doc.setFontSize(11);
+
+    let lines = doc.splitTextToSize(policy, usableWidth);
+
+
+    lines.forEach(line => {
+
+        if(y > pageHeight - margin){
+
             doc.addPage();
+
+            y = margin;
+
         }
 
-        doc.text(pageLines, margin, margin);
-    }
+        /* Bold section headings automatically */
+
+        if(
+            line.startsWith("i.") ||
+            line.startsWith("ii.") ||
+            line.startsWith("iii.") ||
+            line.startsWith("iv.") ||
+            line.startsWith("v.") ||
+            line.startsWith("vi.")
+        ){
+            doc.setFont("Times","Bold");
+        }
+        else{
+            doc.setFont("Times","Normal");
+        }
+
+        doc.text(line, margin, y);
+
+        y += 6;
+
+    });
+
 
     doc.save("Drone_Policy.pdf");
 
