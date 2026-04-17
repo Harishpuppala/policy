@@ -1,0 +1,22 @@
+[
+  {
+    "name": "GITAM Institute of Technology, Visakhapatnam",
+    "zone": "RED"
+  },
+  {
+    "name": "SVCE \u2013 Sri Venkateswara College of Engineering, Tirupati",
+    "zone": "RED"
+  },
+  {
+    "name": "IIIT Sri City \u2013 Indian Institute of Information Technology, Sri City",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Siddharth Institute of Engineering and Technology, Puttur",
+    "zone": "GREEN"
+  },
+  {
+    "name": "SRM University AP, Amaravati",
+    "zone": "GREEN"
+  }
+]

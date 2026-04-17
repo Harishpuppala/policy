@@ -1,0 +1,10 @@
+UNMANNED AERIAL VEHICLES (UAV) POLICY
+{{UNIVERSITY_NAME}}
+
+i. Policy Statement:
+This policy establishes the framework for approving procedures, ensuring the safe and responsible flight of Unmanned Aerial Vehicles in {{UNIVERSITY_NAME}}.
+
+iv. UAV Policy:
+UAV operations within and around {{UNIVERSITY_NAME}} shall comply with the airspace classification designated by the Digital Sky platform.
+
+Based on the Digital Sky airspace map, the area surrounding {{UNIVERSITY_NAME}} falls under the {{AIRSPACE_ZONE}} category.

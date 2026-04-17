@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>University Drone Policy Generator</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+
+<h1>University Drone Policy Generator</h1>
+
+<p>Type a university name to filter the list, select it, then generate the UAV policy PDF.</p>
+
+<input type="text" id="searchBox" placeholder="Search university..." onkeyup="filterColleges()" style="width:600px;padding:8px;">
+
+<br><br>
+
+<select id="collegeDropdown" size="15" style="width:600px;"></select>
+
+<br><br>
+
+<button onclick="downloadPDF()">Generate Policy PDF</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
