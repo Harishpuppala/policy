@@ -1,18 +1,13 @@
-UNMANNED AERIAL VEHICLES (UAV) POLICY
-{{UNIVERSITY_NAME}}
+                                                              UNMANNED AERIAL VEHICLES (UAV) POLICY
+                                                                        {{UNIVERSITY_NAME}}
 
 i. POLICY STATEMENT
-
 This policy establishes the framework for approving procedures and ensuring the safe and responsible flight of Unmanned Aerial Vehicles (UAVs) in {{UNIVERSITY_NAME}}. Compliance with this policy is essential during the deployment of UAVs to align with applicable laws and ensure safety, security, and privacy of individuals.
 
-
 ii. APPLICABILITY
-
 This policy applies to all University/Institute Appointees including faculty, research scholars, graduate researchers, students, and invitees of {{UNIVERSITY_NAME}}.
 
-
 iii. DEFINITIONS
-
 University Appointee  
 Any faculty member, research scholar, postdoctoral appointee, student, staff member, or any other individual with an appointment at the University.
 
