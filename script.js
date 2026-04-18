@@ -114,17 +114,19 @@ doc.setFontSize(11);
 
 /* Detect section headings */
 
-if(
+let isHeading =
 line.startsWith("i.") ||
 line.startsWith("ii.") ||
 line.startsWith("iii.") ||
 line.startsWith("iv.") ||
 line.startsWith("v.") ||
-line.startsWith("vi.")
-){
-doc.setFont("Times","Bold");
-}
+line.startsWith("vi.");
 
+if(isHeading){
+doc.setFont("Times","Bold");
+doc.text(line, margin, y);
+}
+else{
 
 /* Detect **bold text** */
 
@@ -153,6 +155,8 @@ else{
 
 doc.setFont("Times","Normal");
 doc.text(line, margin, y);
+
+}
 
 }
 
