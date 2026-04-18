@@ -100,11 +100,9 @@ lines.forEach(line => {
 if(y > pageHeight - margin){
 
 doc.setFontSize(9);
-
 doc.text(`Page ${pageCount}`, pageWidth/2, pageHeight-10, {align:"center"});
 
 doc.addPage();
-
 pageCount++;
 
 y = margin;
@@ -112,6 +110,9 @@ y = margin;
 doc.setFontSize(11);
 
 }
+
+
+/* Detect section headings */
 
 if(
 line.startsWith("i.") ||
@@ -123,11 +124,37 @@ line.startsWith("vi.")
 ){
 doc.setFont("Times","Bold");
 }
-else{
+
+
+/* Detect **bold text** */
+
+if(line.includes("**")){
+
+let parts = line.split("**");
+
+let x = margin;
+
+parts.forEach((part,index)=>{
+
+if(index % 2 === 1){
+doc.setFont("Times","Bold");
+}else{
 doc.setFont("Times","Normal");
 }
 
+doc.text(part, x, y);
+
+x += doc.getTextWidth(part);
+
+});
+
+}
+else{
+
+doc.setFont("Times","Normal");
 doc.text(line, margin, y);
+
+}
 
 y += 6;
 
@@ -135,7 +162,6 @@ y += 6;
 
 
 doc.setFontSize(9);
-
 doc.text(`Page ${pageCount}`, pageWidth/2, pageHeight-10, {align:"center"});
 
 
