@@ -6,7 +6,7 @@ let template = "";
 fetch("template.txt")
 .then(res => res.text())
 .then(data => {
-template = data;
+    template = data;
 });
 
 
@@ -16,20 +16,31 @@ fetch("colleges.json")
 .then(res => res.json())
 .then(data => {
 
-colleges = data;
+    colleges = data;
 
-let dropdown = document.getElementById("collegeDropdown");
+    let dropdown = document.getElementById("collegeDropdown");
 
-data.forEach((college,index)=>{
+    data.forEach((college,index)=>{
 
-let option = document.createElement("option");
+        let option = document.createElement("option");
 
-option.value = index;
-option.text = college.name;
+        option.value = index;
+        option.text = college.name;
 
-dropdown.appendChild(option);
+        dropdown.appendChild(option);
 
-});
+    });
+
+    /* Activate searchable dropdown */
+
+    new TomSelect("#collegeDropdown",{
+        create:false,
+        sortField:{
+            field:"text",
+            direction:"asc"
+        },
+        maxOptions:500
+    });
 
 });
 
@@ -112,7 +123,7 @@ doc.text("Effective Date: " + policyDate, pageWidth/2, y+150, {align:"center"});
 doc.text("Airspace Classification: " + college.zone, pageWidth/2, y+165, {align:"center"});
 
 
-/* Add new page for policy */
+/* Add new page */
 
 doc.addPage();
 
@@ -136,7 +147,7 @@ doc.text(college.name, pageWidth/2, y, {align:"center"});
 y += 15;
 
 
-/* ---------------- BODY ---------------- */
+/* ---------------- POLICY BODY ---------------- */
 
 doc.setFontSize(11);
 
