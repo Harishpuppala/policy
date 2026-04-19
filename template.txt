@@ -27,7 +27,7 @@ Any **University Appointee** planning to
 must comply with the following procedures:
 a) Submit a **UAV Flight Request Form**  for each flight and obtain necessary approvals by providing required training certifications.
 b) Procure approvals in advance from the **UAV Flight Management Team**, including details such as flight date, time, and survey area.
-c) Ensure that UAV operations prioritize **safety, security, and privacy** of individuals within the operational region.
+c) Ensure that UAV operations prioritize  **safety, security, and privacy** of individuals within the operational region.
 d) Ensure that both pilot and co-pilot are present during operations and wear appropriate safety identification such as **reflective safety vests**.
 e) Any invitee seeking to deploy UAVs for commercial, research, demonstration, or educational purposes must obtain approval from the responsible university department and the UAV Flight Management Team.
 f) Report any **damage or loss of UAV equipment**  immediately.
