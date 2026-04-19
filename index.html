@@ -91,11 +91,15 @@ Generate UAV operational policies aligned with DGCA Drone Rules and Digital Sky 
 <ul class="link-list">
 
 <li>
-<a href="https://digitalsky.dgca.gov.in/" target="_blank">Digital Sky Portal</a>
+<a href="https://digitalsky.dgca.gov.in/" target="_blank">
+Digital Sky Portal
+</a>
 </li>
 
 <li>
-<a href="https://www.dgca.gov.in/" target="_blank">DGCA India</a>
+<a href="https://www.dgca.gov.in/" target="_blank">
+DGCA India
+</a>
 </li>
 
 <li>
@@ -105,7 +109,9 @@ Drone Rules 2021
 </li>
 
 <li>
-<a href="https://bharatmaps.gov.in/" target="_blank">Bharat Maps Airspace Information</a>
+<a href="https://bharatmaps.gov.in/" target="_blank">
+Bharat Maps Airspace Information
+</a>
 </li>
 
 </ul>
@@ -152,7 +158,6 @@ Email:
 
 <script src="script.js"></script>
 
-
 <script>
 
 function openTab(tabName){
@@ -169,73 +174,6 @@ event.target.classList.add("active");
 }
 
 </script>
-
-
-<!-- CHATBOT -->
-
-<div id="chatbot-container">
-
-<div id="chatbot-header">Drone Assistant</div>
-
-<div id="chatbot-messages"></div>
-
-<div id="chatbot-input-area">
-<input type="text" id="chatbot-input" placeholder="Ask a question...">
-<button onclick="sendMessage()">Send</button>
-</div>
-
-</div>
-
-<button id="chatbot-toggle" onclick="toggleChatbot()">💬</button>
-
-
-<script>
-
-function toggleChatbot(){
-let bot = document.getElementById("chatbot-container");
-bot.style.display = bot.style.display === "block" ? "none" : "block";
-}
-
-function sendMessage(){
-
-let input = document.getElementById("chatbot-input");
-let msg = input.value.toLowerCase();
-
-let response = "Sorry, I don't understand that yet.";
-
-if(msg.includes("generate policy")){
-response = "To generate a policy: 1) Select your institution, 2) Enter the Drone Operations Oversight Unit, 3) Click 'Generate Policy PDF'.";
-}
-
-else if(msg.includes("digital sky")){
-response = "Digital Sky is the DGCA platform used in India for drone flight permissions and airspace information.";
-}
-
-else if(msg.includes("green zone")){
-response = "Green zones allow drone operations without prior permission, subject to Drone Rules 2021.";
-}
-
-else if(msg.includes("red zone")){
-response = "Red zones prohibit drone operations unless special government approval is obtained.";
-}
-
-else if(msg.includes("oversight unit")){
-response = "The Drone Operations Oversight Unit is the department responsible for supervising drone operations in the institution.";
-}
-
-let chat = document.getElementById("chatbot-messages");
-
-chat.innerHTML += "<div><b>You:</b> "+input.value+"</div>";
-chat.innerHTML += "<div><b>Bot:</b> "+response+"</div>";
-
-chat.scrollTop = chat.scrollHeight;
-
-input.value="";
-
-}
-
-</script>
-
 
 </body>
 
