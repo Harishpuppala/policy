@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+
 <meta charset="UTF-8">
 <title>University Drone Policy Generator</title>
+
 <link rel="stylesheet" href="style.css">
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
 </head>
+
 <body>
 
 <h1>University Drone Policy Generator</h1>
 
-<p>Type a university name to filter the list, select it, then generate the UAV policy PDF.</p>
+<p>
+Select a university to automatically generate a UAV policy aligned with
+Digital Sky airspace classification.
+</p>
 
-<input type="text" id="searchBox" placeholder="Search university..." onkeyup="filterColleges()" style="width:600px;padding:8px;">
+<!-- University Search -->
+
+<input
+type="text"
+id="searchBox"
+placeholder="Search university..."
+onkeyup="filterColleges()"
+style="width:600px;padding:8px;"
+>
 
 <br><br>
 
@@ -20,9 +37,47 @@
 
 <br><br>
 
-<button onclick="downloadPDF()">Generate Policy PDF</button>
+<!-- Optional policy details -->
+
+<div style="width:600px">
+
+<label><b>Department / Responsible Unit</b></label><br>
+<input
+type="text"
+id="department"
+placeholder="Example: Centre for Drone Technology"
+style="width:100%;padding:6px;"
+>
+
+<br><br>
+
+<label><b>Policy Version</b></label><br>
+<input
+type="text"
+id="policyVersion"
+placeholder="Example: Version 1.0"
+style="width:100%;padding:6px;"
+>
+
+<br><br>
+
+<label><b>Policy Effective Date</b></label><br>
+<input
+type="date"
+id="policyDate"
+style="width:100%;padding:6px;"
+>
+
+</div>
+
+<br>
+
+<button onclick="downloadPDF()" style="padding:10px 20px;font-size:16px;">
+Generate Policy PDF
+</button>
 
 <script src="script.js"></script>
 
 </body>
+
 </html>
