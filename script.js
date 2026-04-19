@@ -27,6 +27,12 @@ fetch("colleges.json")
         option.value = index;
         option.textContent = college.name;
 
+        /* Set SRM University AP as default */
+
+        if(college.name.includes("SRM University AP, Amaravati")){
+            option.selected = true;
+        }
+
         dropdown.appendChild(option);
 
     });
