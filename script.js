@@ -27,9 +27,9 @@ fetch("colleges.json")
         option.value = index;
         option.textContent = college.name;
 
-        /* Set SRM University AP as default */
+        /* Default selection */
 
-        if(college.name.includes("SRM University AP, Amaravati")){
+        if(college.name.includes("SRM University AP")){
             option.selected = true;
         }
 
@@ -203,7 +203,7 @@ y += 2;
 else{
 
 
-/* Detect **bold text** */
+/* Detect bold markers */
 
 if(line.includes("**")){
 
