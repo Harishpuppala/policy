@@ -33,6 +33,45 @@ opacity:0.9;
 }
 
 
+/* Header Tabs */
+
+.tabs{
+margin-top:15px;
+}
+
+.tab-button{
+background:white;
+border:none;
+padding:10px 22px;
+margin:4px;
+border-radius:6px;
+cursor:pointer;
+font-weight:600;
+color:#1f3c88;
+transition:all 0.2s;
+}
+
+.tab-button:hover{
+background:#e6ecff;
+}
+
+.tab-button.active{
+background:#16306b;
+color:white;
+}
+
+
+/* Tab Content */
+
+.tab-content{
+display:none;
+}
+
+.tab-content.active{
+display:block;
+}
+
+
 /* Container */
 
 .container{
@@ -133,6 +172,28 @@ padding:6px;
 .ts-dropdown{
 border-radius:6px;
 box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+/* Important Links */
+
+.link-list{
+list-style:none;
+padding-left:0;
+}
+
+.link-list li{
+margin:10px 0;
+}
+
+.link-list a{
+color:#1f3c88;
+text-decoration:none;
+font-weight:500;
+}
+
+.link-list a:hover{
+text-decoration:underline;
 }
 
 
