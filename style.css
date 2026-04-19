@@ -1,77 +1,150 @@
+/* Global */
+
 body{
-font-family: Arial, Helvetica, sans-serif;
-background:#f4f6f8;
+font-family: "Segoe UI", Roboto, Arial, sans-serif;
+background:#f2f5f9;
 margin:0;
 padding:0;
+color:#2c3e50;
 }
+
+
+/* Container */
 
 .container{
 max-width:750px;
 margin:10px auto;
-padding:30px;
+padding:20px;
 }
+
+
+/* Title */
 
 h1{
 text-align:center;
-margin-bottom:10px;
-color:#2c3e50;
+margin-top:5px;
+margin-bottom:8px;
+color:#1f3c88;
+font-weight:600;
 }
+
+
+/* Subtitle */
 
 .subtitle{
 text-align:center;
 color:#555;
-margin-bottom:35px;
+margin-bottom:25px;
+font-size:15px;
 }
+
+
+/* Cards */
 
 .card{
 background:white;
 padding:25px;
-margin-bottom:20px;
-border-radius:8px;
-box-shadow:0 2px 6px rgba(0,0,0,0.1);
+margin-bottom:18px;
+border-radius:10px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
 }
+
+
+/* Card heading */
 
 .card h3{
 margin-top:0;
-color:#333;
+color:#1f3c88;
+font-size:18px;
 }
+
+
+/* Labels */
 
 label{
 display:block;
 margin-top:15px;
-font-weight:bold;
-color:#333;
+font-weight:600;
+font-size:14px;
 }
+
+
+/* Inputs */
 
 input, select{
 width:100%;
 padding:10px;
 margin-top:6px;
 border-radius:6px;
-border:1px solid #ccc;
+border:1px solid #d0d7de;
 font-size:14px;
+transition:all 0.2s;
 }
+
+
+/* Input focus */
+
+input:focus, select:focus{
+outline:none;
+border-color:#1f3c88;
+box-shadow:0 0 4px rgba(31,60,136,0.2);
+}
+
+
+/* Button container */
 
 .button-container{
 text-align:center;
-margin-top:20px;
+margin-top:25px;
 }
 
+
+/* Button */
+
 button{
-background:#007BFF;
+background:#1f3c88;
 color:white;
 border:none;
-padding:12px 30px;
+padding:12px 32px;
 font-size:16px;
 border-radius:6px;
 cursor:pointer;
-transition:0.3s;
+transition:all 0.3s;
+font-weight:500;
 }
+
+
+/* Button hover */
 
 button:hover{
-background:#0056b3;
+background:#16306b;
+transform:translateY(-1px);
 }
 
+
+/* Tom Select styling */
+
 .ts-control{
-padding:8px;
+border-radius:6px;
+border:1px solid #d0d7de;
+padding:6px;
+}
+
+
+/* Dropdown */
+
+.ts-dropdown{
+border-radius:6px;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.container{
+padding:15px;
+}
+
 }
