@@ -8,6 +8,11 @@
 
 <link rel="stylesheet" href="style.css">
 
+<!-- Tom Select for searchable dropdown -->
+<link href="https://cdn.jsdelivr.net/npm/tom-select/dist/css/tom-select.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/tom-select/dist/js/tom-select.complete.min.js"></script>
+
+<!-- jsPDF -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
 </head>
@@ -21,19 +26,9 @@ Select a university to automatically generate a UAV policy aligned with
 Digital Sky airspace classification.
 </p>
 
-<!-- University Search -->
+<!-- Searchable dropdown -->
 
-<input
-type="text"
-id="searchBox"
-placeholder="Search university..."
-onkeyup="filterColleges()"
-style="width:600px;padding:8px;"
->
-
-<br><br>
-
-<select id="collegeDropdown" size="15" style="width:600px;"></select>
+<select id="collegeDropdown" placeholder="Search or select a university..." style="width:600px;"></select>
 
 <br><br>
 
