@@ -29,8 +29,18 @@
 Generate UAV operational policies aligned with DGCA Drone Rules and Digital Sky airspace classifications.
 </p>
 
+<div class="tabs">
+<button class="tab-button active" onclick="openTab('tool')">Tool</button>
+<button class="tab-button" onclick="openTab('links')">Important Links</button>
+<button class="tab-button" onclick="openTab('contact')">Contact</button>
+</div>
+
 </header>
 
+
+<!-- TOOL TAB -->
+
+<div id="tool" class="tab-content active">
 
 <div class="container">
 
@@ -63,15 +73,108 @@ Generate UAV operational policies aligned with DGCA Drone Rules and Digital Sky 
 <button onclick="downloadPDF()">Generate Policy PDF</button>
 </div>
 
+</div>
 
-<p class="footer">
-If you have any queries, you may contact
+</div>
+
+
+<!-- IMPORTANT LINKS TAB -->
+
+<div id="links" class="tab-content">
+
+<div class="container">
+
+<div class="card">
+
+<h3>Important Drone Regulatory Links</h3>
+
+<ul class="link-list">
+
+<li>
+<a href="https://digitalsky.dgca.gov.in/" target="_blank">
+Digital Sky Portal
+</a>
+</li>
+
+<li>
+<a href="https://www.dgca.gov.in/" target="_blank">
+DGCA India
+</a>
+</li>
+
+<li>
+<a href="https://www.dgca.gov.in/digigov-portal/?page=jsp/dgca/InventoryList/headerblock/drones/DronesRegulations.jsp" target="_blank">
+Drone Rules 2021
+</a>
+</li>
+
+<li>
+<a href="https://bharatmaps.gov.in/" target="_blank">
+Bharat Maps Airspace Information
+</a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- CONTACT TAB -->
+
+<div id="contact" class="tab-content">
+
+<div class="container">
+
+<div class="card">
+
+<h3>Contact</h3>
+
+<p>
+For queries regarding this tool or UAV policy generation for academic institutions,
+please contact:
+</p>
+
+<p>
+<strong>Harish Puppala</strong><br>
+Centre for Geospatial Technology<br>
+SRM University AP
+</p>
+
+<p>
+Email:
 <a href="mailto:harish.p@srmap.edu.in">harish.p@srmap.edu.in</a>
 </p>
 
 </div>
 
+</div>
+
+</div>
+
+
 <script src="script.js"></script>
+
+
+<script>
+
+function openTab(tabName){
+
+let tabs = document.querySelectorAll(".tab-content");
+let buttons = document.querySelectorAll(".tab-button");
+
+tabs.forEach(tab => tab.classList.remove("active"));
+buttons.forEach(btn => btn.classList.remove("active"));
+
+document.getElementById(tabName).classList.add("active");
+event.target.classList.add("active");
+
+}
+
+</script>
 
 </body>
 
