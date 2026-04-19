@@ -10,21 +10,13 @@ This policy applies to all **University/Institute Appointees** including faculty
 
 iii. DEFINITIONS
 
-**University Appointee**
+**University Appointee:** Any faculty member, research scholar, postdoctoral appointee, student, staff member, or any other individual with an appointment at the University.
 
-Any faculty member, research scholar, postdoctoral appointee, student, staff member, or any other individual with an appointment at the University.
+**Invitee:** An individual or a representative from an organisation visiting {{UNIVERSITY_NAME}} on invitation basis.
 
-**Invitee**
+**UAV Operator:** Any faculty member, research scholar, graduate researcher, student, or invitee seeking to deploy UAVs and participate in UAV flight operations.
 
-An individual or a representative from an organisation visiting {{UNIVERSITY_NAME}} on invitation basis.
-
-**UAV Operator**
-
-Any faculty member, research scholar, graduate researcher, student, or invitee seeking to deploy UAVs and participate in UAV flight operations.
-
-**UAV Flight Management Team**
-
-A committee constituted by the University to oversee UAV operations on campus. The team may include representatives from the university administration, faculty members with expertise in drone technologies, campus security personnel, and representatives from relevant academic or operational units responsible for safety, research oversight, and facility management.
+**UAV Flight Management Team:** A committee constituted by the University to oversee UAV operations on campus. The team may include representatives from the university administration, faculty members with expertise in drone technologies, campus security personnel, and representatives from relevant academic or operational units responsible for safety, research oversight, and facility management.
 
 
 iv. UAV POLICY
