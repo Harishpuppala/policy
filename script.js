@@ -62,7 +62,7 @@ let index = dropdown.value;
 
 if(index === "" || index === undefined){
 
-alert("Please select a university");
+alert("Please select an institution");
 
 return;
 
@@ -116,7 +116,7 @@ doc.text(college.name, pageWidth/2, y+100, {align:"center"});
 doc.setFont("Times","Normal");
 
 if(department){
-doc.text("Department: " + department, pageWidth/2, y+120, {align:"center"});
+doc.text("Drone Operations Oversight Unit: " + department, pageWidth/2, y+120, {align:"center"});
 }
 
 if(policyVersion){
