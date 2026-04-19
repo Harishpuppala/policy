@@ -12,11 +12,1495 @@
     "zone": "GREEN"
   },
   {
+    "name": "SVCET Chittoor \u2013 Sri Venkateswara College of Engineering and Technology, Chittoor",
+    "zone": "GREEN"
+  },
+  {
+    "name": "VVIT Guntur \u2013 Vasireddy Venkatadri Institute of Technology, Guntur",
+    "zone": "GREEN"
+  },
+  {
+    "name": "AITAM Tekkali \u2013 Aditya Institute of Technology and Management, Tekkali",
+    "zone": "GREEN"
+  },
+  {
+    "name": "AITS Hyderabad \u2013 Annamacharya Institute of Technology and Sciences, Rajampet",
+    "zone": "GREEN"
+  },
+  {
+    "name": "MITS Madanapalle \u2013 Madanapalle Institute of Technology and Science, Madanapalle",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Annamacharya Institute of Technology and Sciences, Kadapa",
+    "zone": "YELLOW"
+  },
+  {
+    "name": "VIT Bhimavaram \u2013 Vishnu Institute of Technology, Bhimavaram",
+    "zone": "GREEN"
+  },
+  {
+    "name": "KHIT Guntur \u2013 Kallam Haranadha Reddy Institute of Technology, Guntur",
+    "zone": "GREEN"
+  },
+  {
+    "name": "MB School of Engineering, Mohan Babu University, Tirupati",
+    "zone": "GREEN"
+  },
+  {
+    "name": "BEC Bapatla \u2013 Bapatla Engineering College, Bapatla",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Sri Venkateswara Engineering College, Tirupati (SVEC Tirupati)",
+    "zone": "RED"
+  },
+  {
+    "name": "KL University Guntur \u2013 Koneru Lakshmaiah Education Foundation, Guntur",
+    "zone": "GREEN"
+  },
+  {
+    "name": "GGU Rajahmundry \u2013 Godavari Global University, Rajahmundry",
+    "zone": "YELLOW"
+  },
+  {
+    "name": "GMRIT Rajam \u2013 GMR Institute of Technology, Rajam",
+    "zone": "GREEN"
+  },
+  {
+    "name": "BITS VIZAG \u2013 Baba Institute of Technology and Sciences, Visakhapatnam",
+    "zone": "GREEN"
+  },
+  {
+    "name": "NRI Institute of Technology, Guntur",
+    "zone": "GREEN"
+  },
+  {
+    "name": "St Marys Group of Institutions, Guntur",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Ideal Institute of Technology, Kakinada",
+    "zone": "RED"
+  },
+  {
+    "name": "GEC Gudlavalleru \u2013 Seshadri Rao Gudlavalleru Engineering College, Gudlavalleru",
+    "zone": "GREEN"
+  },
+  {
+    "name": "SRIT Proddatur \u2013 Sai Rajeswari Institute of Technology, Proddatur",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Brindavan Institute of Technology and Science, Kurnool",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Geethanjali Institute of Science and Technology, Nellore",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Avanthi Institute of Engineering and Technology, Visakhapatnam",
+    "zone": "GREEN"
+  },
+  {
     "name": "Siddharth Institute of Engineering and Technology, Puttur",
+    "zone": "GREEN"
+  },
+  {
+    "name": "CIET Guntur \u2013 Chalapathi Institute of Engineering and Technology, Guntur",
+    "zone": "GREEN"
+  },
+  {
+    "name": "KITS Divili \u2013 Kakinada Institute of Technology and Science, Divili",
+    "zone": "GREEN"
+  },
+  {
+    "name": "SISTK Puttur \u2013 Siddartha Institute of Science and Technology, Puttur",
+    "zone": "GREEN"
+  },
+  {
+    "name": "NRI Institute of Technology, Agiripalli",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Sri Venkateswara Institute of Science and Technology, Kadapa",
+    "zone": "RED"
+  },
+  {
+    "name": "Bheema Institute of Technology and Science, Adoni",
+    "zone": "GREEN"
+  },
+  {
+    "name": "SVPCET Puttur \u2013 Sri Venkatesa Perumal College of Engineering and Technology, Puttur",
+    "zone": "GREEN"
+  },
+  {
+    "name": "KSRMCE Kadapa \u2013 Kandula Srinivasa Reddy College of Engineering, Cuddapah",
+    "zone": "RED"
+  },
+  {
+    "name": "Gates Institute of Technology, Gooty",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Srinivasa Ramanujan Institute of Technology, Anantapur",
+    "zone": "GREEN"
+  },
+  {
+    "name": "CREC Tirupati \u2013 Chadalawada Ramanamma Engineering College, Tirupati",
+    "zone": "RED"
+  },
+  {
+    "name": "VIIT Visakhapatnam \u2013 Vignan\u2019s Institute of Information Technology, Visakhapatnam",
+    "zone": "RED"
+  },
+  {
+    "name": "Lingayas Institute of Management and Technology, Vijayawada",
+    "zone": "YELLOW"
+  },
+  {
+    "name": "Dr KV Subba Reddy Institute of Technology, Kurnool",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Chalapathi Institute of Technology, Guntur",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Sri Venkateswara Institute of Technology, Anantapur",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Kakinada Institute of Technological Sciences, Ramachandrapuram",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Shree Institute of Technical Education, Tirupati",
+    "zone": "RED"
+  },
+  {
+    "name": "Golden Valley Integrated Campus, Madanapalle",
     "zone": "GREEN"
   },
   {
     "name": "SRM University AP, Amaravati",
     "zone": "GREEN"
+  },
+  {
+    "name": "BIT Institute of Technology, Hindupur",
+    "zone": "GREEN"
+  },
+  {
+    "name": "ALIET Vijayawada \u2013 Andhra Loyola Institute of Engineering and Technology, Vijayawada",
+    "zone": "GREEN"
+  },
+  {
+    "name": "KIET Korangi \u2013 Kakinada Institute of Engineering and Technology-II, Korangi",
+    "zone": "GREEN"
+  },
+  {
+    "name": "GPREC Kurnool \u2013 G Pulla Reddy Engineering College, Kurnool",
+    "zone": "YELLOW"
+  },
+  {
+    "name": "Priyadarshini Institute of Technology, Tirupati",
+    "zone": "GREEN"
+  },
+  {
+    "name": "ANITS Visakhapatnam \u2013 Anil Neerukonda Institute of Technology and Sciences, Visakhapatnam",
+    "zone": "GREEN"
+  },
+  {
+    "name": "SACET Chirala \u2013 St Ann\u2019s College of Engineering and Technology, Chirala",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Sir CV Raman Institute of Technology and Sciences, Tadipatri",
+    "zone": "GREEN"
+  },
+  {
+    "name": "SRK Institute of Technology, Vijayawada",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Vaishnavi Institute of Technology, Tirupati",
+    "zone": "YELLOW"
+  },
+  {
+    "name": "DIET Vijayawada \u2013 Dhanekula Institute of Engineering and Technology, Vijayawada",
+    "zone": "YELLOW"
+  },
+  {
+    "name": "Vemu Institute of Technology, Chittoor",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Vikas Group of Institutions, Vijayawada",
+    "zone": "GREEN"
+  },
+  {
+    "name": "SITAM Vizianagaram \u2013 Satya Institute of Technology and Management, Vizianagaram",
+    "zone": "GREEN"
+  },
+  {
+    "name": "SVECW Bhimavaram \u2013 Shri Vishnu Engineering College for Women, Bhimavaram",
+    "zone": "GREEN"
+  },
+  {
+    "name": "KMMITS Tirupati \u2013 KMM Institute of Technology and Science, Tirupati",
+    "zone": "GREEN"
+  },
+  {
+    "name": "NEC Nellore \u2013 Narayana Engineering College, Nellore",
+    "zone": "GREEN"
+  },
+  {
+    "name": "PVKK Institute of Technology, Anantapur",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Srinivasa Institute of Engineering and Technology, Amalapuram",
+    "zone": "GREEN"
+  },
+  {
+    "name": "YITS Tirupati \u2013 Yogananda Institute of Technology and Science, Tirupati",
+    "zone": "RED"
+  },
+  {
+    "name": "LBRCE Mylavaram \u2013 Lakireddy Bali Reddy College of Engineering, Mylavaram",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Sri Sai Institute of Technology and Science, Rayachoti",
+    "zone": "GREEN"
+  },
+  {
+    "name": "SITE \u2013 Sasi Institute of Technology and Engineering, Tadepalligudem",
+    "zone": "Green"
+  },
+  {
+    "name": "VLITS Guntur \u2013 Vignan\u2019s Lara Institute of Technology and Science, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "VRSEC Vijayawada \u2013 Velagapudi Ramakrishna Siddhartha Engineering College, Vijayawada",
+    "zone": "Yellow"
+  },
+  {
+    "name": "Srinivasa Institute of Technology and Science, Kadapa",
+    "zone": "Yellow"
+  },
+  {
+    "name": "Krishna Chaitanya Institute of Technology and Sciences, Markapur",
+    "zone": "Green"
+  },
+  {
+    "name": "PVPSIT Vijayawada \u2013 Prasad V Potluri Siddhartha Institute of Technology, Vijayawada",
+    "zone": "Yellow"
+  },
+  {
+    "name": "Priyadarshini Institute of Technology, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "UCET Guntur \u2013 Universal College of Engineering and Technology, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "LITAM Guntur \u2013 Loyola Institute of Technology and Management, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "VIT-AP University, Amaravati",
+    "zone": "Green"
+  },
+  {
+    "name": "Viswanadha Institute of Technology and Management, Visakhapatnam",
+    "zone": "Green"
+  },
+  {
+    "name": "Nadimpalli Satyanarayana Raju Institute of Technology, Visakhapatnam",
+    "zone": "Green"
+  },
+  {
+    "name": "Priyadarshini Institute of Technology and Science, Tenali",
+    "zone": "Green"
+  },
+  {
+    "name": "Indira Institute of Technology and Sciences, Markapur",
+    "zone": "Green"
+  },
+  {
+    "name": "Raghu Institute of Technology, Visakhapatnam",
+    "zone": "GREEN"
+  },
+  {
+    "name": "NBKRIST Nellore \u2013 NBKR Institute of Science and Technology, Vidyanagar",
+    "zone": "GREEN"
+  },
+  {
+    "name": "RCEW Kurnool \u2013 Ravindra College of Engineering for Women, Kurnool",
+    "zone": "YELLOW"
+  },
+  {
+    "name": "PCET Nellore \u2013 Priyadarshini College of Engineering and Technology, Nellore",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Avanthi Institute of Engineering and Technology, Bhogapuram",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Sreenivasa Institute of Technology and Management Studies, Chittoor",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Sree Vahini Institute of Science and Technology, Tiruvuru",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Lendi Institute of Engineering and Technology, Vizianagaram",
+    "zone": "GREEN"
+  },
+  {
+    "name": "PACE Institute of Technology and Sciences, Ongole",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Nova Institute of Technology, Eluru",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Annamacharya Institute of Technology and Sciences, Tirupathi",
+    "zone": "RED"
+  },
+  {
+    "name": "RCE Eluru \u2013 Ramachandra College of Engineering, Eluru",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Audisankara Institute of Technology, Gudur",
+    "zone": "GREEN"
+  },
+  {
+    "name": "KEC Kuppam \u2013 Kuppam Engineering College, Kuppam",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Coastal Institute of Technology and Management, Vizianagaram",
+    "zone": "GREEN"
+  },
+  {
+    "name": "QIS Institute of Technology, Ongole",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Amrita Sai Institute of Science and Technology, Krishna",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Nalanda Institute of Technology, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "Indo American Institutions Technical Campus, Visakhapatnam",
+    "zone": "Green"
+  },
+  {
+    "name": "Sanketika Institute of Technology and Management, Visakhapatnam",
+    "zone": "Green"
+  },
+  {
+    "name": "Miracle Educational Society Group of Institutions, Vizianagaram",
+    "zone": "Green"
+  },
+  {
+    "name": "KKR and KSR Institute of Technology and Sciences, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "Dadi Institute of Engineering and Technology, Visakhapatnam",
+    "zone": "Green"
+  },
+  {
+    "name": "Visakha Institute of Engineering and Technology, Visakhapatnam",
+    "zone": "Red"
+  },
+  {
+    "name": "Anantha Lakshmi Institute of Technology and Sciences, Anantapur",
+    "zone": "Green"
+  },
+  {
+    "name": "Vignana Bharathi Institute of Technology, Proddatur",
+    "zone": "Green"
+  },
+  {
+    "name": "Centurion University of Technology and Management, Vizianagaram",
+    "zone": "Green"
+  },
+  {
+    "name": "SVCET Srikakulam \u2013 Sri Venkateswara College of Engineering and Technology, Etcherla",
+    "zone": "Green"
+  },
+  {
+    "name": "Intellectual Institute of Technology, Anantapur",
+    "zone": "Green"
+  },
+  {
+    "name": "SISTAM Srikakulam \u2013 Sarada Institute of Science, Technology and Management, Srikakulam",
+    "zone": "Green"
+  },
+  {
+    "name": "Priyadarshini Institute of Technology and Management, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "BWEC Bapatla \u2013 Bapatla Women\u2019s Engineering College, Bapatla",
+    "zone": "Green"
+  },
+  {
+    "name": "Vijaya Institute of Technology for Women, Vijayawada",
+    "zone": "Yellow"
+  },
+  {
+    "name": "Sri Vasavi Institute of Engineering and Technology, Pedana",
+    "zone": "Green"
+  },
+  {
+    "name": "Seshachala Institute of Technology, Puttur",
+    "zone": "Green"
+  },
+  {
+    "name": "Chiranjeevi Reddy Institute of Engineering and Technology, Anantapur",
+    "zone": "Green"
+  },
+  {
+    "name": "St Mark Educational Institution Society Group of Institution, Anantapur",
+    "zone": "Green"
+  },
+  {
+    "name": "Gonna Institute of Information Technology and Sciences, Visakhapatnam",
+    "zone": "Yellow"
+  },
+  {
+    "name": "Gokul Institute of Technology and Sciences, Vizianagaram",
+    "zone": "Green"
+  },
+  {
+    "name": "A1 Global Institute of Engineering and Technology, Prakasam",
+    "zone": "Green"
+  },
+  {
+    "name": "Shri Shirdi Sai Institute of Science and Engineering, Anantapur",
+    "zone": "Green"
+  },
+  {
+    "name": "Sri Vani Educational Society Group of Institutions, Vijayawada",
+    "zone": "Green"
+  },
+  {
+    "name": "CEC Chirala \u2013 Chirala Engineering College, Chirala",
+    "zone": "Green"
+  },
+  {
+    "name": "Ashoka Women\u2019s Engineering College, Kurnool",
+    "zone": "Green"
+  },
+  {
+    "name": "KKC Institute of Technology and Engineering, Puttur",
+    "zone": "Green"
+  },
+  {
+    "name": "Kakinada Institute of Engineering and Technology, Korangi",
+    "zone": "Green"
+  },
+  {
+    "name": "Helapuri Institute of Technology and Science, Eluru",
+    "zone": "Green"
+  },
+  {
+    "name": "Syamaladevi Institute of Technology for Women, Kurnool",
+    "zone": "Green"
+  },
+  {
+    "name": "Visakha Technical Campus, Visakhapatnam",
+    "zone": "Red"
+  },
+  {
+    "name": "GVR&S Guntur \u2013 GVR and S College of Engineering and Technology, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "Vizag Institute of Technology, Visakhapatnam",
+    "zone": "Green"
+  },
+  {
+    "name": "Kottam Karunakara Reddy Institute of Technology, Kurnool",
+    "zone": "Green"
+  },
+  {
+    "name": "Srinivasa Institute of Engineering and Technology, Thiruvallur",
+    "zone": "Green"
+  },
+  {
+    "name": "SITS Tirupati \u2013 Swetha Institute of Technology and Science, Tirupati",
+    "zone": "Green"
+  },
+  {
+    "name": "Shree Rama Educational Society Group of Institutions, Tirupati",
+    "zone": "yellow"
+  },
+  {
+    "name": "GVPCE Visakhapatnam \u2013 Gayatri Vidya Parishad College of Engineering, Visakhapatnam",
+    "zone": "Red"
+  },
+  {
+    "name": "Rajamahendri Institute of Engineering and Technology, Rajahmundry",
+    "zone": "yellow"
+  },
+  {
+    "name": "Sarojini Institute of Technology, Krishna",
+    "zone": "yellow"
+  },
+  {
+    "name": "KSN Institute of Technology, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "Mandava Institute of Engineering and Technology, Jaggayyapeta",
+    "zone": "Green"
+  },
+  {
+    "name": "Amara Institute of Engineering and Technology, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "QISCET Ongole \u2013 QIS College of Engineering and Technology, Ongole",
+    "zone": "Green"
+  },
+  {
+    "name": "Balaji Institute of Engineering and Management Studies, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "GVVR Institute of Technology, Bhimavaram",
+    "zone": "Green"
+  },
+  {
+    "name": "Swarnandhra Institute of Engineering and Technology, Narsapur",
+    "zone": "Green"
+  },
+  {
+    "name": "Chaitanya Institute of Science and Technology, Madhavapatnam",
+    "zone": "Green"
+  },
+  {
+    "name": "Mekapati Rajamohan Reddy Institute of Technology and Science, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "Sri Mittapalli Institute of Technology for Women, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "Sri Raghavendra Institute of Science and Technology, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "DJR Institute of Engineering and Technology, Vijayawada",
+    "zone": "Red"
+  },
+  {
+    "name": "Sri Sivani Institute of Technology, Srikakulam",
+    "zone": "Green"
+  },
+  {
+    "name": "EVM College of Engineering and Technology, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "Sri Vasavi Engineering College, Tadepalligudem",
+    "zone": "Green"
+  },
+  {
+    "name": "Sri Sarathi Institute of Engineering and Technology, Krishna",
+    "zone": "Green"
+  },
+  {
+    "name": "Sir CR Reddy College of Engineering, Eluru",
+    "zone": "Green"
+  },
+  {
+    "name": "Narasaraopeta Institute of Technology, Narasaraopet",
+    "zone": "Green"
+  },
+  {
+    "name": "Vaagdevi Institute of Technology and Science, Kadapa",
+    "zone": "Green"
+  },
+  {
+    "name": "MJR College of Engineering and Technology, Chittoor",
+    "zone": "Green"
+  },
+  {
+    "name": "MAM Women\u2019s Engineering College, Narasaraopet",
+    "zone": "Green"
+  },
+  {
+    "name": "Gayatri Vidya Parishad College of Engineering for Women, Visakhapatnam",
+    "zone": "Red"
+  },
+  {
+    "name": "Gandhiji Institute of Science and Technology, Bhimavaram",
+    "zone": "Green"
+  },
+  {
+    "name": "Bonam Venkata Chalamayya Engineering College, Odalarevu",
+    "zone": "Red"
+  },
+  {
+    "name": "SVR Engineering College, Nandyal",
+    "zone": "Green"
+  },
+  {
+    "name": "BVC College of Engineering, Rajahmundry",
+    "zone": "Red"
+  },
+  {
+    "name": "Modugula Kalavathamma Institute of Technology for Women, Cuddapah",
+    "zone": "Green"
+  },
+  {
+    "name": "Dr Samuel George Institute of Engineering and Technology, Prakasam",
+    "zone": "Green"
+  },
+  {
+    "name": "Mother Theresa Institute of Engineering and Technology, Chittoor",
+    "zone": "Green"
+  },
+  {
+    "name": "Vignan\u2019s Institute of Engineering for Women, Visakhapatnam",
+    "zone": "Red"
+  },
+  {
+    "name": "Sree Rama Engineering College, Tirupathi",
+    "zone": "Red"
+  },
+  {
+    "name": "Mother Theresa Educational Society Group of Institutions Integrated Campus, Vijayawada",
+    "zone": "Green"
+  },
+  {
+    "name": "International School of Technology and Sciences for Women, Rajahmundry",
+    "zone": "yellow"
+  },
+  {
+    "name": "Eluru College of Engineering and Technology, Eluru",
+    "zone": "Green"
+  },
+  {
+    "name": "Andhra Engineering College, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "KSRM College of Engineering, Kadapa",
+    "zone": "Red"
+  },
+  {
+    "name": "Siddhartha Educational Academy Group of Institutions, Tirupati",
+    "zone": "Green"
+  },
+  {
+    "name": "Swarnandhra College of Engineering and Technology, Narsapur",
+    "zone": "Green"
+  },
+  {
+    "name": "Gokul Group of Institutions, Vizianagaram",
+    "zone": "Green"
+  },
+  {
+    "name": "Visvodaya Engineering College, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "HMKS and MGS College of Engineering, Kanagala",
+    "zone": "Green"
+  },
+  {
+    "name": "Sai Tirumala NVR Engineering College, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "Pydah College of Dairy and Food Technology, Kakinada",
+    "zone": "Green"
+  },
+  {
+    "name": "Sri Annamacharya Institute of Technology and Sciences, Rajampet",
+    "zone": "Green"
+  },
+  {
+    "name": "Sri Venkateswara College of Engineering, Kadapa",
+    "zone": "yellow"
+  },
+  {
+    "name": "Geethanjali College of Engineering and Technology, Orvakal",
+    "zone": "yellow"
+  },
+  {
+    "name": "Mohan Babu University, Tirupati",
+    "zone": "Green"
+  },
+  {
+    "name": "Sree Venkateswara Institute of Engineering and Research Foundation, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "Malineni Suseelamma Womens Engineering College, Singarayakonda",
+    "zone": "Green"
+  },
+  {
+    "name": "Chaitanya Bharathi Institute of Technology, Cuddapah",
+    "zone": "Green"
+  },
+  {
+    "name": "Rajiv Gandhi University of Knowledge Technologies, Ongole Campus",
+    "zone": "Green"
+  },
+  {
+    "name": "VSM College of Engineering, Ramachandrapuram",
+    "zone": "Green"
+  },
+  {
+    "name": "MVGR College of Engineering \u2013 Maharaj Vijayaram Gajapathi Raj College of Engineering, Vizianagaram",
+    "zone": "Green"
+  },
+  {
+    "name": "Nimra Institute of Engineering and Technology, Ongole",
+    "zone": "Green"
+  },
+  {
+    "name": "Amrita Vishwa Vidyapeetham, Amaravati Campus",
+    "zone": "Green"
+  },
+  {
+    "name": "MVR College of Engineering, Visakhapatnam",
+    "zone": "Green"
+  },
+  {
+    "name": "MVR College of Engineering, Visakhapatnam",
+    "zone": "Green"
+  },
+  {
+    "name": "NIE Guntur \u2013 Newton\u2019s Institute of Engineering, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "Tadipatri Engineering College, Tadipatri",
+    "zone": "Green"
+  },
+  {
+    "name": "Bharath Educational Society\u2019s Group of Institutions- Faculty of Engineering, Chittoor",
+    "zone": "GREEN"
+  },
+  {
+    "name": "Sri Prakash College of Technology, East Godavari",
+    "zone": "Green"
+  },
+  {
+    "name": "Srinivasa College of Engineering and Technology, East Godavari",
+    "zone": "Green"
+  },
+  {
+    "name": "Avanthi\u2019s Sri Gnaneswari Research and Technological Academy for Women, Bhogapuram",
+    "zone": "Green"
+  },
+  {
+    "name": "Sri Vatsavai Krishnam Raju College of Engineering and Technology, West Godavari",
+    "zone": "Green"
+  },
+  {
+    "name": "Swarnadhara College of Engineering and Technology, Narsapur",
+    "zone": "Green"
+  },
+  {
+    "name": "SKR College of Engineering and Technology, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "Vignan\u2019s Nirula Institute of Technology and Science for Women, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "Visakha Technical Campus Varaha Lakshmi Narasimha Swamy Educational Trust Group of Institutions, Visakhapatnam",
+    "zone": "Red"
+  },
+  {
+    "name": "Sri Kalahastheswara Institute of Technology, Chittoor",
+    "zone": "Green"
+  },
+  {
+    "name": "Haji Mohammad Khasim Saheb and Mohammad Galab Saheb College of Engineering, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "Sri Sunflower College of Engineering and Technology, Krishna",
+    "zone": "Green"
+  },
+  {
+    "name": "MVR College of Engineering and Technology, Krishna",
+    "zone": "Green"
+  },
+  {
+    "name": "Gurindapalli Devanandam Mary Memorial College of Engineering and Technology for Women, Nandigama",
+    "zone": "Green"
+  },
+  {
+    "name": "Swamy Vivekananda Engineering College, Vizianagaram",
+    "zone": "Green"
+  },
+  {
+    "name": "Potti Sriramulu Chalavadi Mallikharjuna Rao College of Engineering and Technology, Vijayawada",
+    "zone": "Green"
+  },
+  {
+    "name": "Kakinada Institute of Engineering and Technology for Women, Korangi",
+    "zone": "Green"
+  },
+  {
+    "name": "Madina Engineering College, Cuddapah",
+    "zone": "Red"
+  },
+  {
+    "name": "Gayatri Institute of Engineering and Technology, West Godavari",
+    "zone": "Green"
+  },
+  {
+    "name": "Sai Sakthi Engineering College, Chittoor",
+    "zone": "Green"
+  },
+  {
+    "name": "SRKR Engineering College \u2013 Sagi Ramakrishnam Raju Engineering College, Bhimavaram",
+    "zone": "Red"
+  },
+  {
+    "name": "Newton\u2019s Institute of Science and Technology, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "Bhaskar Institute of Technology and Science, Rayachoty",
+    "zone": "Green"
+  },
+  {
+    "name": "NS Raju Institute of Engineering and Technology, Bheemunipatnam",
+    "zone": "Green"
+  },
+  {
+    "name": "Vignan\u2019s Foundation for Science Technology and Research, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "Sri Mittapalli College of Engineering, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "GIET Engineering College, Rajahmundry",
+    "zone": "Yellow"
+  },
+  {
+    "name": "Sree Venkateswara College of Science and Technology, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "Malineni Lakshmaiah Engineering College, Singarayakonda",
+    "zone": "Green"
+  },
+  {
+    "name": "Praveenya Institute of Marine Engineering and Maritime Studies, Vizianagaram",
+    "zone": "Green"
+  },
+  {
+    "name": "Nova College of Engineering and Technology, Ibrahimpatnam",
+    "zone": "Green"
+  },
+  {
+    "name": "St Johns College of Engineering and Technology, Kurnool",
+    "zone": "Green"
+  },
+  {
+    "name": "Priyadarshini Institute of Technology and Science for Women, Tenali",
+    "zone": "Green"
+  },
+  {
+    "name": "Global College of Engineering and Technology, Kadapa",
+    "zone": "Red"
+  },
+  {
+    "name": "Acharya College of Engineering, Badvel",
+    "zone": "Green"
+  },
+  {
+    "name": "Nannapaneni Venkat Rao College of Engineering and Technology, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "BESTIU Anantpur \u2013 Bharatiya Engineering Science and Technology Innovation University, Anantapur",
+    "zone": "Green"
+  },
+  {
+    "name": "Nightingale Engineering College for Women, Visakhapatnam",
+    "zone": "Green"
+  },
+  {
+    "name": "RVR and JC College of Engineering, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "G Pullaiah College of Engineering and Technology, Kurnool",
+    "zone": "Yellow"
+  },
+  {
+    "name": "KLM College of Engineering for Women, Kadapa",
+    "zone": "Red"
+  },
+  {
+    "name": "KITS Akshar Institute of Technology, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "Daita Madhusudana Sastry Sri Venkateswara Hindu College of Engineering, Machilipatnam",
+    "zone": "Green"
+  },
+  {
+    "name": "Narasaraopeta Engineering College, Narasaraopet",
+    "zone": "Green"
+  },
+  {
+    "name": "SREC Kurnool \u2013 Santhiram Engineering College, Kurnool",
+    "zone": "Green"
+  },
+  {
+    "name": "Pydah College of Engineering, Kakinada",
+    "zone": "Green"
+  },
+  {
+    "name": "Malineni Lakshmaiah Women\u2019s Engineering College, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "GIET College of Engineering, Rajahmundry",
+    "zone": "Yellow"
+  },
+  {
+    "name": "Indira Priyadarshini College of Engineering and Technology for Women, Kurnool",
+    "zone": "Red"
+  },
+  {
+    "name": "Lenora College of Engineering, Ramachandrapuram",
+    "zone": "Green"
+  },
+  {
+    "name": "Varaprasad Reddy Institute of Technology, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "Gayatri Vidya Parishad College for Degree and PG Courses, Visakhapatnam",
+    "zone": "Red"
+  },
+  {
+    "name": "Viswam Engineering College, Chittoor",
+    "zone": "Green"
+  },
+  {
+    "name": "Shiva Rama Krishna College of Engineering and Technology, Srikakulam",
+    "zone": "Green"
+  },
+  {
+    "name": "DNR College of Engineering and Technology, Bhimavaram",
+    "zone": "Green"
+  },
+  {
+    "name": "DJR College of Engineering and Technology, Vijayawada",
+    "zone": "Red"
+  },
+  {
+    "name": "Brahmas Institute of Engineering and Technology, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "Dr Lankapalli Bullayya College of Engineering for Women, Visakhapatnam",
+    "zone": "Red"
+  },
+  {
+    "name": "Aditya Engineering College, Surampalem",
+    "zone": "Green"
+  },
+  {
+    "name": "Adarsh College of Engineering, Kakinada",
+    "zone": "Green"
+  },
+  {
+    "name": "Gokula Krishna College of Engineering, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "Prakasam Engineering College, Prakasam",
+    "zone": "Green"
+  },
+  {
+    "name": "Devineni Venkata Ramana and Dr Hima Sekhar MIC College of Technology, Krishna",
+    "zone": "Green"
+  },
+  {
+    "name": "AVS College of Engineering and Technology, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "Akula Sree Ramulu Institute of Engineering and Technology, Tadepalligudem",
+    "zone": "Green"
+  },
+  {
+    "name": "Sai Ganapathi Engineering College, Visakhapatnam",
+    "zone": "Green"
+  },
+  {
+    "name": "Sreenivasa College of Engineering and Technology, Kurnool",
+    "zone": "Green"
+  },
+  {
+    "name": "Intell Engineering College, Anantapur",
+    "zone": "Green"
+  },
+  {
+    "name": "Bonam Venkata Chalamayya Engineering College, Rajahmundry",
+    "zone": "Red"
+  },
+  {
+    "name": "St Mary\u2019s Women\u2019s Engineering College, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "Audisankara College of Engineering and Technology, Kodavalur",
+    "zone": "Green"
+  },
+  {
+    "name": "Sri Chaitanya DJR Institute of Technology, Krishna",
+    "zone": "Red"
+  },
+  {
+    "name": "The Apollo University, Chittoor",
+    "zone": "Green"
+  },
+  {
+    "name": "Quba College of Engineering and Technology, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "Siddartha Educational Academy Group of Institutions, Tirupati",
+    "zone": "Green"
+  },
+  {
+    "name": "RK College of Engineering, Vijayawada",
+    "zone": "Green"
+  },
+  {
+    "name": "West Godavari Institute of Science and Engineering, West Godavari",
+    "zone": "Green"
+  },
+  {
+    "name": "VRS and YRN College of Engineering and Technology, Prakasam",
+    "zone": "Green"
+  },
+  {
+    "name": "Sri Padmavathi Engineering College, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "RGUKT, Srikakulam \u2013 Rajiv Gandhi University of Knowledge Technologies, Srikakulam Campus",
+    "zone": "Green"
+  },
+  {
+    "name": "Raghu Engineering College, Visakhapatnam",
+    "zone": "Green"
+  },
+  {
+    "name": "ASN Women\u2019s Engineering College, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "Simhadri Educational Society Group of Institutions, Sabbavaram",
+    "zone": "Green"
+  },
+  {
+    "name": "VKR, VNB and AGK College of Engineering, Krishna",
+    "zone": "Green"
+  },
+  {
+    "name": "Seshachala Institute of Engineering and Technology, Puttur",
+    "zone": "Green"
+  },
+  {
+    "name": "Rajoli Veera Reddy Padmaja Engineering College, Cuddapah",
+    "zone": "Yellow"
+  },
+  {
+    "name": "Sri Sai College of Engineering and Technology, Anantapur",
+    "zone": "Green"
+  },
+  {
+    "name": "Damsetty Srinivasa Naidu\u2019s DBS Institute of Technology, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "Paladugu Nagaiah Chowdary and Vijai Institute of Engineering and Technology, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "Eswar College of Engineering, Narasaraopet",
+    "zone": "Green"
+  },
+  {
+    "name": "Dr Paul Raj Engineering College, East Godavari",
+    "zone": "Green"
+  },
+  {
+    "name": "Thandra Paparaya Institute of Science and Technology, Vizianagaram",
+    "zone": "Green"
+  },
+  {
+    "name": "Sri Prakash College of Engineering, East Godavari",
+    "zone": "Green"
+  },
+  {
+    "name": "Tenali Engineering College, Tenali",
+    "zone": "Green"
+  },
+  {
+    "name": "Velaga Nageswara Rao College of Engineering, Ponnur",
+    "zone": "Green"
+  },
+  {
+    "name": "AVR and SVR College of Engineering and Technology, Kurnool",
+    "zone": "Green"
+  },
+  {
+    "name": "Chadalawada Venkta Subbaiah College of Engineering, Tirupati",
+    "zone": "Green"
+  },
+  {
+    "name": "Sri Chaitanya Engineering College, Visakhapatnam",
+    "zone": "Green"
+  },
+  {
+    "name": "Narayanadri Institute of Science and Technology, Cuddapah",
+    "zone": "Green"
+  },
+  {
+    "name": "Usha Rama College of Engineering and Technology, Krishna",
+    "zone": "Yellow"
+  },
+  {
+    "name": "Chaitanya Engineering College, Bhimavaram",
+    "zone": "Green"
+  },
+  {
+    "name": "Seshachala Institute of Engineering and Technology, Tirupati",
+    "zone": "Green"
+  },
+  {
+    "name": "RGMCET Kurnool \u2013 Rajeev Gandhi Memorial College of Engineering and Technology, Kurnool",
+    "zone": "Green"
+  },
+  {
+    "name": "Atmakur Engineering College, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "Jagan\u2019s College of Engineering and Technology, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "AKRG College of Engineering and Technology, Nallajerla",
+    "zone": "Green"
+  },
+  {
+    "name": "Amalapuram Institute of Management Sciences and College of Engineering, Mummidivaram",
+    "zone": "Green"
+  },
+  {
+    "name": "Brahmaiah College of Engineering, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "NIMRA College of Engineering and Technology, Vijayawada",
+    "zone": "Green"
+  },
+  {
+    "name": "Jogaiah Institute of Technology and Sciences, Palakole",
+    "zone": "Green"
+  },
+  {
+    "name": "Chadalawada Venkata Subbaiah College of Engineering, Tirupati",
+    "zone": "Red"
+  },
+  {
+    "name": "RISE Krishna Sai Prakasam Group of Institutions, Ongole",
+    "zone": "Green"
+  },
+  {
+    "name": "Sanketika Vidya Parishad Engineering College, Visakhapatnam",
+    "zone": "Green"
+  },
+  {
+    "name": "Chaitanya Engineering College, Visakhapatnam",
+    "zone": "Green"
+  },
+  {
+    "name": "Audisankara College of Engineering and Technology, Gudur",
+    "zone": "Green"
+  },
+  {
+    "name": "Aditya College of Engineering, Chittoor",
+    "zone": "Green"
+  },
+  {
+    "name": "Aditya College of Engineering, Surampalem",
+    "zone": "Green"
+  },
+  {
+    "name": "Hindu College of Engineering and Technology, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "Gouthami Institute of Technology and Management for Women, Cuddapah",
+    "zone": "Green"
+  },
+  {
+    "name": "ABR College of Engineering and Technology, Prakasam",
+    "zone": "Green"
+  },
+  {
+    "name": "Parvatha Reddy Babul Reddy Visvodaya Institute of Technology and Science, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "RV Institute of Technology, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "AM Reddy Memorial College of Engineering and Technology, Narasaraopet",
+    "zone": "Green"
+  },
+  {
+    "name": "Wellfare Institute of Science Technology and Management, Visakhapatnam",
+    "zone": "Yellow"
+  },
+  {
+    "name": "Safa College of Engineering and Technology, Kurnool",
+    "zone": "Green"
+  },
+  {
+    "name": "Bhimavaram Institute of Engineering and Technology, Bhimavaram",
+    "zone": "Green"
+  },
+  {
+    "name": "Gayatri Vidya Parishad College for Degree and PG Courses, School of Engineering, Visakhapatnam",
+    "zone": "Red"
+  },
+  {
+    "name": "Tirumala Engineering College, Narasaraopet",
+    "zone": "Green"
+  },
+  {
+    "name": "St Anns Engineering College, Chirala",
+    "zone": "Green"
+  },
+  {
+    "name": "Ramireddy Subbarami Reddy Engineering College, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "Swarnandhra Institute of Engineering and Technology, Narasapur",
+    "zone": "Green"
+  },
+  {
+    "name": "Sanskrithi School of Engineering, Puttaparthi",
+    "zone": "Red"
+  },
+  {
+    "name": "Sri Sivani College of Engineering, Srikakulam",
+    "zone": "Green"
+  },
+  {
+    "name": "BCET Visakhapatnam \u2013 Behara College of Engineering and Technology, Visakhapatnam",
+    "zone": "Red"
+  },
+  {
+    "name": "SV College of Engineering, Puttur",
+    "zone": "Green"
+  },
+  {
+    "name": "Buchepalli Venkayamma Subbareddy Engineering College, Prakasam",
+    "zone": "Green"
+  },
+  {
+    "name": "Sree Venkateswara College of Engineering, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "Avanthi\u2019s Research and Technological Academy, Bhogapuram",
+    "zone": "Green"
+  },
+  {
+    "name": "YV Siva Reddy College of Engineering and Technology, Anantapur",
+    "zone": "Green"
+  },
+  {
+    "name": "Pragati Engineering College, Surampalem",
+    "zone": "Green"
+  },
+  {
+    "name": "Rao and Naidu Engineering College, Ongole",
+    "zone": "Green"
+  },
+  {
+    "name": "Sri Sai Madhavi Institute of Science and Technology, Mallampudi",
+    "zone": "Green"
+  },
+  {
+    "name": "Stanley Stephen College of Engineering and Technology, Kurnool",
+    "zone": "Green"
+  },
+  {
+    "name": "VS Lakshmi Engineering College for Women, Kakinada",
+    "zone": "Green"
+  },
+  {
+    "name": "Sri Krishnadevaraya Engineering College, Gooty",
+    "zone": "Green"
+  },
+  {
+    "name": "Sri Venkateswara Institute of Science and Information Technology, West Godavari",
+    "zone": "Green"
+  },
+  {
+    "name": "Sri Vasavi Institute of Engineering and Technology, Peravali",
+    "zone": "Green"
+  },
+  {
+    "name": "KKC Institute of Technology and Engineering for Women, Chittoor",
+    "zone": "Green"
+  },
+  {
+    "name": "Sree Venkateswara Engineering College, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "Vijayam Institute of Technology, Chittoor",
+    "zone": "Green"
+  },
+  {
+    "name": "Narayana Engineering College, Gudur",
+    "zone": "Green"
+  },
+  {
+    "name": "Montessori Siva Sivani Institute of Science and Technology, Vijayawada",
+    "zone": "Red"
+  },
+  {
+    "name": "RISE Krishna Sai Gandhi Group of Institutions, Ongole",
+    "zone": "Green"
+  },
+  {
+    "name": "Nimra Womens College of Engineering, Vijayawada",
+    "zone": "Green"
+  },
+  {
+    "name": "Akula Sreeramulu College of Engineering, Tanuku",
+    "zone": "Green"
+  },
+  {
+    "name": "Vikas College of Engineering and Technology, Vijayawada",
+    "zone": "Green"
+  },
+  {
+    "name": "PBR Visvodaya Engineering College, Nellore",
+    "zone": "Green"
+  },
+  {
+    "name": "AMAKSIK College of Technology and Management, Anakapalle",
+    "zone": "Green"
+  },
+  {
+    "name": "Don Bosco Institute of Technology and Science, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "Prajna Institute of Technology and Management, Pasala",
+    "zone": "Green"
+  },
+  {
+    "name": "Mentey Padmanabham College of Engineering and Technology, Bhimavaram",
+    "zone": "Green"
+  },
+  {
+    "name": "Grandhi Varalakshmi Venkata Rao Institute of Technology, Bhimavaram",
+    "zone": "Green"
+  },
+  {
+    "name": "Paladugu Parvathi Devi College of Engineering and Technology, Vijayawada",
+    "zone": "Yellow"
+  },
+  {
+    "name": "Avanthi\u2019s St Theressa Institute of Engineering and Technology, Garividi",
+    "zone": "Green"
+  },
+  {
+    "name": "Aditya College of Engineering and Technology, Surampalem",
+    "zone": "Green"
+  },
+  {
+    "name": "Bharath College of Engineering and Technology for Women, Kadapa",
+    "zone": "Green"
+  },
+  {
+    "name": "Pydah Kaushik College of Engineering, Visakhapatnam",
+    "zone": "Red"
+  },
+  {
+    "name": "Chintalapudi Engineering College, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "Malineni Perumallu Educational Society\u2019s Group of Institutions, Guntur",
+    "zone": "Green"
+  },
+  {
+    "name": "Audisankara College of Engineering for Women, Gudur",
+    "zone": "Green"
+  },
+  {
+    "name": "SSN Engineering College, Ongole",
+    "zone": "Green"
+  },
+  {
+    "name": "KORM College of Engineering, Kadapa",
+    "zone": "Red"
+  },
+  {
+    "name": "Al Ameer College of Engineering and Information Technology, Visakhapatnam",
+    "zone": "Green"
+  },
+  {
+    "name": "BVCITS East Godavari \u2013 Bonam Venkata Chalamayya Institute of Technology and Science, East Godavari",
+    "zone": "Green"
+  },
+  {
+    "name": "Visvodaya Engineering College, Kavali",
+    "zone": "Green"
+  },
+  {
+    "name": "GDMM College of Engineering and Technology, Nandigama",
+    "zone": "Green"
   }
 ]
