@@ -25,7 +25,7 @@ fetch("colleges.json")
         let option = document.createElement("option");
 
         option.value = index;
-        option.text = college.name;
+        option.textContent = college.name;
 
         dropdown.appendChild(option);
 
@@ -35,11 +35,12 @@ fetch("colleges.json")
 
     new TomSelect("#collegeDropdown",{
         create:false,
+        searchField:["text"],
+        maxOptions:null,
         sortField:{
             field:"text",
             direction:"asc"
-        },
-        maxOptions:500
+        }
     });
 
 });
