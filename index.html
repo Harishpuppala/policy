@@ -8,7 +8,7 @@
 
 <link rel="stylesheet" href="style.css">
 
-<!-- Tom Select for searchable dropdown -->
+<!-- Tom Select -->
 <link href="https://cdn.jsdelivr.net/npm/tom-select/dist/css/tom-select.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/tom-select/dist/js/tom-select.complete.min.js"></script>
 
@@ -19,57 +19,44 @@
 
 <body>
 
+<div class="container">
+
 <h1>University Drone Policy Generator</h1>
 
-<p>
-Select a university to automatically generate a UAV policy aligned with
-Digital Sky airspace classification.
+<p class="subtitle">
+Generate UAV operational policies aligned with DGCA Drone Rules
+and Digital Sky airspace classifications.
 </p>
 
-<!-- Searchable dropdown -->
+<div class="card">
 
-<select id="collegeDropdown" placeholder="Search or select a university..." style="width:600px;"></select>
+<label>Select University</label>
 
-<br><br>
-
-<!-- Optional policy details -->
-
-<div style="width:600px">
-
-<label><b>Department / Responsible Unit</b></label><br>
-<input
-type="text"
-id="department"
-placeholder="Example: Centre for Drone Technology"
-style="width:100%;padding:6px;"
->
-
-<br><br>
-
-<label><b>Policy Version</b></label><br>
-<input
-type="text"
-id="policyVersion"
-placeholder="Example: Version 1.0"
-style="width:100%;padding:6px;"
->
-
-<br><br>
-
-<label><b>Policy Effective Date</b></label><br>
-<input
-type="date"
-id="policyDate"
-style="width:100%;padding:6px;"
->
+<select id="collegeDropdown" placeholder="Search or select a university..."></select>
 
 </div>
 
-<br>
 
-<button onclick="downloadPDF()" style="padding:10px 20px;font-size:16px;">
-Generate Policy PDF
-</button>
+<div class="card">
+
+<h3>Optional Policy Details</h3>
+
+<label>Department / Responsible Unit</label>
+<input type="text" id="department" placeholder="Example: Centre for Drone Technology">
+
+<label>Policy Version</label>
+<input type="text" id="policyVersion" placeholder="Example: Version 1.0">
+
+<label>Policy Effective Date</label>
+<input type="date" id="policyDate">
+
+</div>
+
+<div class="button-container">
+<button onclick="downloadPDF()">Generate Policy PDF</button>
+</div>
+
+</div>
 
 <script src="script.js"></script>
 
