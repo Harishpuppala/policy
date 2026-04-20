@@ -8,6 +8,7 @@ The policy aims to ensure:
 •	Protect the privacy. 
 •	Compliance with Indian aviation regulations. 
 •	Responsible and ethical use of UAVs often referred to as Drones. 
+
 ii.	Applicability: This policy applies to all University/Institute Appointees including Faculty, Research scholars, Staff, Graduate researchers, Students, Visiting researchers, external collaborators, and invitees/contractors of {{UNIVERSITY_NAME}}. Any individual operating or intending to operate a UAV within the campus or for activities associated with {{UNIVERSITY_NAME}} must comply with this policy.
 
 iii.	Definitions
