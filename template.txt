@@ -1,38 +1,144 @@
-i. POLICY STATEMENT
-This policy establishes the framework for approving procedures and ensuring the safe and responsible flight of **Unmanned Aerial Vehicles (UAVs)** in {{UNIVERSITY_NAME}}. Compliance with this policy is essential during the deployment of UAVs to align with applicable laws and ensure safety, security, and privacy of individuals.
+UNMANNED AERIAL VEHICLES (UAV) POLICY
+{{UNIVERSITY_NAME}}
 
-ii. APPLICABILITY
-This policy applies to all **University/Institute Appointees** including faculty, research scholars, graduate researchers, students, and invitees of {{UNIVERSITY_NAME}}.
 
-iii. DEFINITIONS
-**University Appointee:** Any faculty member, research scholar, postdoctoral appointee, student, staff member, or any other individual with an appointment at the University.
-**Invitee:** An individual or a representative from an organisation visiting {{UNIVERSITY_NAME}} on invitation basis.
-**UAV Operator:** Any faculty member, research scholar, graduate researcher, student, or invitee seeking to deploy UAVs and participate in UAV flight operations.
-**UAV Flight Management Team:** A committee constituted by the University to oversee UAV operations on campus. The team may include representatives from the university administration, faculty members with expertise in drone technologies, campus security personnel, and representatives from relevant academic or operational units responsible for safety, research oversight, and facility management.
+i.	Policy Statement: This policy establishes the framework to ensure that UAV operations conducted within or on behalf of {{UNIVERSITY_NAME}} are performed safely, responsibly, and in compliance with the Drone Rules 2021 issued by the Directorate General of Civil Aviation (DGCA), Government of India.
+The policy aims to ensure:
+•	Safety of individuals and property. 
+•	Protect the privacy. 
+•	Compliance with Indian aviation regulations. 
+•	Responsible and ethical use of UAVs often referred to as Drones. 
+ii.	Applicability: This policy applies to all University/Institute Appointees including Faculty, Research scholars, Staff, Graduate researchers, Students, Visiting researchers, external collaborators, and invitees/contractors of {{UNIVERSITY_NAME}}. Any individual operating or intending to operate a UAV within the campus or for activities associated with {{UNIVERSITY_NAME}} must comply with this policy.
 
-iv. UAV POLICY
-{{UNIVERSITY_NAME}} recognizes that the evolution of UAV technologies and their potential applications across various disciplines offer significant contributions to teaching and research activities. UAVs can also support monitoring and surveillance activities within the campus.
-However, considering the safety, security, and privacy risks associated with UAV deployment, the following guidelines are established:
-1. UAV operations within the campus shall adhere to **Drone Rules, 2021 issued by the Directorate General of Civil Aviation (DGCA)** and the institutional UAV regulations of {{UNIVERSITY_NAME}}.
-2. Any individual using UAVs on or within University property must adhere to the procedures outlined in **Section V** of this document while complying with Drone Rules, 2021 of India.
-3. University Appointees aiming to deploy drones must comply with the procedures outlined in the **Digital Sky Portal (https://digitalsky.dgca.gov.in)**.
-4. UAV operations within and around {{UNIVERSITY_NAME}} shall comply with the airspace classification designated by the Digital Sky platform.
-Based on the Digital Sky airspace map, the area surrounding **{{UNIVERSITY_NAME}}** falls under the **{{AIRSPACE_ZONE}}** category. UAV operations must adhere to the regulatory requirements applicable to this airspace classification.
+iii.	Definitions
 
-v. PROCEDURES
-Any **University Appointee** planning to
-(i) operate a UAV for consultancy or research  
-(ii) test UAV prototypes  
-(iii) deploy a drone for recreational or photography purposes  
-must comply with the following procedures:
-a) Submit a **UAV Flight Request Form**  for each flight and obtain necessary approvals by providing required training certifications.
-b) Procure approvals in advance from the **UAV Flight Management Team**, including details such as flight date, time, and survey area.
-c) Ensure that UAV operations prioritize  **safety, security, and privacy** of individuals within the operational region.
-d) Ensure that both pilot and co-pilot are present during operations and wear appropriate safety identification such as **reflective safety vests**.
-e) Any invitee seeking to deploy UAVs for commercial, research, demonstration, or educational purposes must obtain approval from the responsible university department and the UAV Flight Management Team.
-f) Report any **damage or loss of UAV equipment**  immediately.
+UAV/Drone: An Unmanned Aircraft System (UAS) capable of remote or autonomous operation without a pilot onboard. 
 
-vi. ENFORCEMENT
-University Appointees or Invitees violating this UAV policy will be held accountable for their actions.
-1. Violators may be instructed to immediately discontinue UAV operations and may be restricted from conducting UAV surveys in the future.
-2. Unauthorized operators may be asked to leave the university premises, and appropriate disciplinary or legal actions may be taken by the University authorities.
+UAV Operator: Any faculty, research scholars, graduate researchers, students, and invitees seeking to deploy UAVs and participate in UAV flight operations. 
+
+University Appointee: Any faculty member, research scholar, postdoctoral appointee, student, staff, or any other individual with an appointment at the University.
+
+Invitee: An individual or a representative from an organisation visiting {{UNIVERSITY_NAME}} on invitation basis. 
+
+UAV Flight Management Team: A committee constituted by the {{UNIVERSITY_NAME}} to oversee UAV operations on campus. The team may include representatives from the university administration, faculty members with expertise in drone or related technologies, campus security personnel, and representatives from relevant academic or operational units responsible for safety, research oversight, and facility management.
+
+
+iv.	Drone Classification
+As per the Drone Rules 2021, UAVs are classified based on their weight including payload. A UAV is referred to as Nano drone if the weights is less than or equal to 250 grams. It is referred to as Micro drone if the weight varies between 250 g and 2 kg. It is referred to as small drone if the weight is between 2 kg and 25 kg while it is referred to as Medium if the weights is between 25 kg and 150 kg. Large category drones are those whose weight is above 150 kg.
+
+v.	Regulatory Compliance
+All UAV operations conducted under the authority of {{UNIVERSITY_NAME}} must comply with:
+•	Drone Rules 2021 
+•	Digital Sky Platform requirements 
+•	DGCA operational guidelines 
+Operators must ensure that:
+1.	UAVs are registered on the Digital Sky Platform. 
+2.	UAVs possess a valid Unique Identification Number (UIN) where applicable. 
+3.	UAV flights comply with airspace restrictions defined by Digital Sky. 
+The region surrounding {{UNIVERSITY_NAME}} falls under the {{AIRSPACE_ZONE}} zone as designated by the Digital Sky platform.
+Operations must comply with the regulatory requirements applicable to this zone.
+vi.	Pilot Licensing Requirements
+
+•	Drone operators must meet the licensing requirements specified by DGCA.
+•	The drone operator must hold a valid Remote Pilot License (RPL) issued by DGCA.
+•	Training must be obtained from an Authorized Remote Pilot Training Organisation (RPTO). 
+•	Exemptions may apply to Nano drones, Micro drones used for non-commercial purposes as per applicable regulations.
+
+vii.	Registration and Identification
+•	All drones used for institutional activities must:
+•	Be registered on the Digital Sky Platform 
+•	Have a valid Unique Identification Number (UIN) where required. 
+•	Comply with applicable type certification requirements. 
+
+
+
+
+viii.	UAV Flight Approval Procedure 
+Any University Appointee planning to operate a UAV for Research, Consultancy, Teaching, Testing drone prototypes, Photography, Recreational activities must submit a UAV Flight Request Form to the UAV Flight Management Team.
+
+The request must include:
+• Purpose of operation 
+• Date and time of operation 
+• Flight area 
+• Drone specifications 
+• Pilot credentials 
+
+Approval must be obtained prior to the flight operation.
+
+ix.	Operational Safety Requirements
+All UAV operations must adhere to the following safety requirements:
+
+a)	UAV operations must not endanger the safety of individuals, property, or infrastructure. 
+b)	UAV operators must maintain visual line-of-sight (VLOS) unless special authorization is obtained. 
+c)	UAV operations must not interfere with manned aircraft operations. 
+d)	Flights must avoid large crowds, Sensitive facilities, and Restricted zones. 
+e)	UAVs must operate within the permissible altitude limits defined by DGCA.
+f)	UAVs must operate within the altitude limits defined under DGCA Drone Rules 2021 and Digital Sky airspace classifications:
+Green Zone: UAV operations are permitted up to 400 feet (120 meters) above ground level without prior permission, subject to compliance with other applicable regulations.
+Yellow Zone: UAV operations above 400 feet (120 meters) or within designated controlled airspace require prior permission from the concerned Air Traffic Control (ATC) authority.
+Red Zone: UAV operations are prohibited unless explicit permission is obtained from the Central Government.
+g)	Operators must verify the applicable airspace classification and altitude restrictions using the Digital Sky Platform prior to commencing UAV operations.
+
+x.	Mandatory Safety Features
+Where applicable, UAVs must incorporate the following safety mechanisms:
+a)	No Permission – No Take-off (NPNT) 
+b)	Geo-fencing capability 
+c)	Real-time tracking capability 
+Operators must ensure that safety features mandated by DGCA are functional before conducting flights.
+
+xi.	Procedures
+
+a) Any “University Appointee” planning to (i) operate a UAV/drone for consultancy and research, (ii) testing prototypes of unmanned aerial vehicles (iii) deploy drone for recreational and photography must submit an “UAV flight request form” for each flight and procure the required approvals by submitting the necessary training certifications.
+b) Regions within {{UNIVERSITY_NAME}} that require prior approvals include all outdoor locations and all indoor spaces including atriums and auditoriums.
+c) University Appointees planning an off-campus survey research or education purposes may not procure any approvals from the UAV Flight Management Team. However, it is suggested to comply with the DGCA rules where reporting the flight in Digital Sky portal is a usual practice.  
+d) Procure the approvals in advance from the UAV Flight Management Team. Necessary details including date(s) and time(s) of drone deployment, and study area should explicitly be stated in the approval forms. Extending the duration and area of survey require new form submission and needs approval.
+e) Deploy and ensure that the operations must ensure safety, security, and privacy of people within the region over which UAV is deployed.   
+
+f) Have a co-pilot along with the pilot throughout the operations and should wear a reflective safety vest provided by {{UNIVERSITY_NAME}}.  
+g) Any invitee seeking to deploy UAVs for commercial, research, demonstration and education purposes, should ensure the following.
+i.	UAV Flight Request form is submitted on behalf of the Invitee by the University department responsible for them while on campus, accompanied by all the mandatory documents.  
+ii.	Collect approval forms containing the vital information such as date, time, and region of survey from UAV Flight Management Team prior to drone deployment. 
+iii.	Operate in a manner that prioritizes the safety, security, and privacy of individuals within the UAV's deployment area.
+iv.	Obtain approval from the Office of Communications if the purpose of the flight is either to take photographs or to filming after taking the approvals from UAV Flight Management Team. 
+v.	Should always be accompanied by a University-authorized representative knowledgeable in UAV operations while the Invitee conducts UAV survey.
+
+xii.	Enforcement
+
+University Appointee and the Invitee, violating this UAV policy will be held accountable for their actions. 
+
+1. University Appointee and the invitee may be instructed to promptly discontinue the operation of the UAVs. He/she will not be permitted to conduct a UAV survey in the near future for at least 2 years. University policies in line with the disciplinary actions will also be imposed. 
+2. Unauthorized operators may be promptly asked to leave the university premises, and. Chief Security Officer may take appropriate legal action.
+
+xiii.	Privacy and Ethical Use
+Drone operations must respect the privacy and dignity of individuals. Operators must ensure that UAVs are not used for:
+•	Unauthorized surveillance 
+•	Intrusion into private spaces 
+•	Recording individuals without consent 
+Any aerial photography or filming conducted for public communication must receive approval from the UAV Flight Management Team.
+xiv.	Insurance and Liability
+Drone operators must ensure compliance with applicable third-party insurance requirements under relevant Indian laws.
+The operator or responsible department shall be liable for damages arising from UAV operations.
+
+xv.	Accident and Incident Reporting
+Any accident involving a UAV must be reported immediately to the UAV Flight Management Team.
+Where required, incidents must also be reported through the Digital Sky Platform within 48 hours, in accordance with DGCA regulations.
+Accidents may include:
+•	Injury to individuals 
+•	Damage to property 
+•	Loss of drone 
+•	Mid-air collision or near miss 
+xvi.	External Operators and Invitees
+External operators must comply with all requirements of this policy.
+Additionally:
+•	A university department must sponsor the operation. 
+•	The operator must submit documentation to the UAV Flight Management Team. 
+•	A university representative must accompany external operators during UAV deployment. 
+xvii.	Enforcement
+Violation of this policy may result in:
+•	Immediate termination of UAV operations 
+•	Suspension of drone operation privileges 
+•	Disciplinary action under institutional policies 
+•	Legal action where applicable 
+Unauthorized operators may be asked to leave the university premises and appropriate authorities may take further action.
+xviii.	Review and Amendments
+This policy may be updated periodically to ensure alignment with evolving regulations, technological developments, and institutional requirements.
