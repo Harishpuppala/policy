@@ -1,5 +1,7 @@
 let colleges = [];
 let template = "";
+let collegeSelect = null;   /* TomSelect instance */
+
 
 /* Load template */
 
@@ -8,6 +10,46 @@ fetch("template.txt")
 .then(data => {
     template = data;
 });
+
+
+/* Normalise a raw zone string to GREEN / YELLOW / RED */
+
+function normaliseZone(raw){
+
+    let z = (raw || "").trim().toUpperCase();
+
+    if(z.startsWith("G")) return "GREEN";
+    if(z.startsWith("Y")) return "YELLOW";
+    if(z.startsWith("R")) return "RED";
+
+    return "GREEN"; /* safe default */
+}
+
+
+/* Update the coloured badge next to the zone dropdown */
+
+function updateZoneBadge(){
+
+    let zone = document.getElementById("zoneOverride").value;
+    let badge = document.getElementById("zoneBadge");
+
+    badge.textContent = zone + " ZONE";
+    badge.className = "zone-badge " + zone;
+}
+
+
+/* When a college is selected, auto-fill its stored zone */
+
+function applyCollegeZone(index){
+
+    if(index === "" || index === undefined || index === null) return;
+
+    let college = colleges[index];
+    if(!college) return;
+
+    document.getElementById("zoneOverride").value = normaliseZone(college.zone);
+    updateZoneBadge();
+}
 
 
 /* Load colleges */
@@ -19,6 +61,7 @@ fetch("colleges.json")
     colleges = data;
 
     let dropdown = document.getElementById("collegeDropdown");
+    let defaultIndex = 0;
 
     data.forEach((college,index)=>{
 
@@ -31,6 +74,7 @@ fetch("colleges.json")
 
         if(college.name.includes("SRM University AP")){
             option.selected = true;
+            defaultIndex = index;
         }
 
         dropdown.appendChild(option);
@@ -39,15 +83,27 @@ fetch("colleges.json")
 
     /* Activate searchable dropdown */
 
-    new TomSelect("#collegeDropdown",{
+    collegeSelect = new TomSelect("#collegeDropdown",{
         create:false,
         searchField:["text"],
         maxOptions:null,
         sortField:{
             field:"text",
             direction:"asc"
+        },
+        onChange:function(value){
+            applyCollegeZone(value);
         }
     });
+
+    /* React to manual zone edits */
+
+    document.getElementById("zoneOverride")
+            .addEventListener("change", updateZoneBadge);
+
+    /* Initialise zone for the default selection */
+
+    applyCollegeZone(defaultIndex);
 
 });
 
@@ -71,6 +127,11 @@ return;
 let college = colleges[index];
 
 
+/* Use the (possibly overridden) zone shown in the dropdown */
+
+let selectedZone = document.getElementById("zoneOverride").value;
+
+
 /* Read optional inputs */
 
 let department = document.getElementById("department")?.value || "";
@@ -82,7 +143,7 @@ let policyDate = document.getElementById("policyDate")?.value || "";
 
 let policy = template
 .replaceAll("{{UNIVERSITY_NAME}}", college.name)
-.replaceAll("{{AIRSPACE_ZONE}}", college.zone);
+.replaceAll("{{AIRSPACE_ZONE}}", selectedZone);
 
 
 const { jsPDF } = window.jspdf;
@@ -127,7 +188,7 @@ if(policyDate){
 doc.text("Effective Date: " + policyDate, pageWidth/2, y+150, {align:"center"});
 }
 
-doc.text("Airspace Classification: " + college.zone, pageWidth/2, y+165, {align:"center"});
+doc.text("Airspace Classification: " + selectedZone, pageWidth/2, y+165, {align:"center"});
 
 
 /* Add new page */
